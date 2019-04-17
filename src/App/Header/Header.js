@@ -8,10 +8,10 @@ import SocialIcon from './SocialIcon/SocialIcon';
 const Header =() => {
 	return (
         <header>
-            <div class="row">
-                <div className="bg-header">
-                    <div className="container">
-                        <div className="col-mg-9">
+            <div className="bg-header">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-9">
                             <SocialIcon/>
                         </div>
                     </div>

@@ -1,0 +1,10 @@
+.col-lg-9 {
+  width: 75%;
+  height: 40px;
+}
+
+.social-icons {
+    float: left;
+    width: 200px;
+    line-height: 40px;
+  }
