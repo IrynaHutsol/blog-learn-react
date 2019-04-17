@@ -1,0 +1,14 @@
+.social-icons {
+    width: 200px;
+    float: left;
+  }
+  
+  .icons {
+    line-height: 2.8;
+    padding-left: 20px;
+    text-decoration: none;
+  }
+  
+  /* .icons-facebook {
+    padding-left: 0;
+  } */
