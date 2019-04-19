@@ -8,6 +8,7 @@ import SocialIcon from './SocialIcon/SocialIcon';
 import SingIn from './SingIn/SingIn';
 import Logo from './Logo/Logo';
 import Menu from './Menu/Menu';
+import Caption from './Caption/Caption';
 
 
 const Header =() => {
@@ -32,6 +33,9 @@ const Header =() => {
                     </div>
                     <div className="col-lg-9">
                         <Menu/>
+                    </div>
+                    <div className="col-lg-12">
+                     <Caption/>   
                     </div>
                 </div>
             </div>
