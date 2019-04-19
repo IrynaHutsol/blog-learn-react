@@ -8,3 +8,11 @@
     width: 200px;
     line-height: 40px;
   }
+
+  .icons {
+    padding-left: 20px;
+  }
+
+  .icons-facebook {
+    padding-left: 0;
+  }
