@@ -7,6 +7,7 @@ import './singin.css'
 import SocialIcon from './SocialIcon/SocialIcon';
 import SingIn from './SingIn/SingIn';
 import Logo from './Logo/Logo';
+import Menu from './Menu/Menu';
 
 
 const Header =() => {
@@ -30,7 +31,7 @@ const Header =() => {
                         <Logo/>
                     </div>
                     <div className="col-lg-9">
-                        Menu
+                        <Menu/>
                     </div>
                 </div>
             </div>

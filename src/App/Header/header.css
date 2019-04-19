@@ -18,3 +18,32 @@
 .logo {
 	line-height: 4.8;
 }
+
+.menu {
+	height: 70px;
+}
+
+.nav li {
+	float: left;
+	margin-right: 25px;
+  }
+  
+  .nav li:last-child {
+	margin-right: 0px;
+  }
+  
+  .nav a {
+	height: 70px;
+	line-height: 5.1;
+	width: 115px;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+  }
+  
+  .nav a:hover {
+	border-bottom: 3px solid rgba(208, 101, 101, 1);
+  }

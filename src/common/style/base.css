@@ -13,7 +13,6 @@ a {
 .container {
 	width: 1170px;
 	margin: 0 auto;
-	height: 40px;
 	overflow: hidden;
 }
 .row:after {
