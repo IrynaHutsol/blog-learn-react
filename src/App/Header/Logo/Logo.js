@@ -1,12 +1,14 @@
-import React from 'react'
-import logo from './logo.png'
+import React from 'react';
+import logo from './logo.png';
 
 const Logo =() => {
 	return (
-        <a href="" className="logo">
-            <img src={logo} alt="PASCO" />
-        </a>
-    )
+        <div className="logo-container">
+            <a href="" className="logo">
+                <img src={logo} alt="PASCO" />
+            </a>
+        </div>
+    );
 }
 
-export default Logo
+export default Logo;

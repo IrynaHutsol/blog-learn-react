@@ -10,3 +10,11 @@
 .bg-imag {
 	height: 625px;
 	}
+
+.logo-container {
+	height: 70px;
+}
+
+.logo {
+	line-height: 4.8;
+}
