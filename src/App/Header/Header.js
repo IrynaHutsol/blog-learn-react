@@ -6,6 +6,8 @@ import './singin.css'
 
 import SocialIcon from './SocialIcon/SocialIcon';
 import SingIn from './SingIn/SingIn';
+import Logo from './Logo/Logo';
+
 
 const Header =() => {
 	return (
@@ -22,16 +24,16 @@ const Header =() => {
                     </div>
                 </div>
             </div>
-                    <div className="bg-header-imag">
-                        <div className="container bg-imag">
-                                <div className="col-lg-3">
-                                    Logo
-                                </div>
-                                <div className="col-lg-9">
-                                    Menu
-                                </div>
-                        </div>
+            <div className="bg-header-imag">
+                <div className="container bg-imag">
+                    <div className="col-lg-3">
+                        <Logo/>
                     </div>
+                    <div className="col-lg-9">
+                        Menu
+                    </div>
+                </div>
+            </div>
 		</header>
     );
 }
