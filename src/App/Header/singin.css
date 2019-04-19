@@ -1,0 +1,21 @@
+.col-lg-3 {
+    width: 25%;
+  }
+
+.sing-in {
+  height: 40px;
+  text-align: right;
+  line-height: 40px;
+}
+  
+.sing-in-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.sing-in-icon {
+  position: relative;
+  top: 5px;
+  right: 5px;
+}

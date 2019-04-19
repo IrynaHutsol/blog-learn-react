@@ -4,12 +4,11 @@
 }
 
 .social-icons {
-    float: left;
     width: 200px;
-    line-height: 40px;
   }
 
   .icons {
+    line-height: 2.8;
     padding-left: 20px;
   }
 
