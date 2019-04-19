@@ -1,3 +1,12 @@
 .bg-header {
 	background-color: rgb(25, 25, 25);
 }
+
+.bg-header-imag {
+	background:darkgrey url(bg.png) center bottom;
+	background-repeat: no-repeat;
+  }
+
+.bg-imag {
+	height: 625px;
+	}

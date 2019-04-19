@@ -22,6 +22,16 @@ const Header =() => {
                     </div>
                 </div>
             </div>
+                    <div className="bg-header-imag">
+                        <div className="container bg-imag">
+                                <div className="col-lg-3">
+                                    Logo
+                                </div>
+                                <div className="col-lg-9">
+                                    Menu
+                                </div>
+                        </div>
+                    </div>
 		</header>
     );
 }
