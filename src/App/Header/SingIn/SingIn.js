@@ -1,6 +1,8 @@
 import React from 'react';
+import './singIn.css';
 import SingInText from './SingInText';
 import SingInIcon from './SingInIcon';
+
 
 const SingIn =() => {
     return (

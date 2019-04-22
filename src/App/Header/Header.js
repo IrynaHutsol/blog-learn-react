@@ -1,8 +1,6 @@
 import React from 'react';
 
 import './header.css';
-import './socialIcon.css';
-import './singin.css'
 
 import SocialIcon from './SocialIcon/SocialIcon';
 import SingIn from './SingIn/SingIn';
@@ -35,7 +33,7 @@ const Header =() => {
                         <Menu/>
                     </div>
                     <div className="col-lg-12">
-                     <Caption/>   
+                        <Caption/>   
                     </div>
                 </div>
             </div>

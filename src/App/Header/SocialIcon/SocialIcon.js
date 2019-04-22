@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './socialIcon.css';
 import FacebookIconHeader from './Icon/FacebookIconHeader';
 import TwitterIconHeader from './Icon/TwitterIconHeader';
 import PinterestIconHeader from './Icon/PinterestIconHeader';
