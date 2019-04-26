@@ -5,9 +5,13 @@
 }
   
 .sing-in-text {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 11px;
-    text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.sing-in-text:hover {
+  color: aliceblue;
 }
 
 .sing-in-icon {
