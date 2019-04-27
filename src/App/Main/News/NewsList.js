@@ -1,11 +1,12 @@
 import React from 'react';
+import NewsListItem from './NewsListItem';
 
 const NewsList = () => {
     return (
         <div>
-            Hello
+            <NewsListItem/>
         </div>
-    )
+    );
 }
 
 export default NewsList;
