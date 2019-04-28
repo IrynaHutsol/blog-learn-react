@@ -1,6 +1,6 @@
 import React from 'react';
 import './firstBlockNews.css';
-import Motivation1 from './images/News/motivation1.jpg'
+import Motivation1 from './images/News/FirstBlock/motivation1.jpg'
 import Author1 from './images/Author/author1.png'
 import More from './images/more.jpg'
 

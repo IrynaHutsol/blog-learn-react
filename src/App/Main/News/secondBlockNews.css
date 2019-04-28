@@ -1,0 +1,104 @@
+.second-block-news {
+    height: 165px;
+    width: 820px;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.col-1 {
+    width: 260px;
+    height: 165px;
+    float: left;
+}
+
+.col-2 {
+    width: 560px;
+    height: 165px;
+
+}
+
+.news2 {
+    height: 90px;
+}
+
+.author-of-news2 {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);  
+}
+
+.like2 {
+    height: 20px;
+    width: 20px;
+    background-color: #11ffee00;
+    border: none;
+    background: url("images/like.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .like-count2 {
+    position: relative;
+    text-align: right;
+    right: 25px;
+    bottom: 40px;
+    color: white;
+    font-size: 14px;
+  }
+
+  .title2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.871);
+    font-weight: bold;
+    line-height: 1.625;
+    padding-left:30px;
+    padding-top: 5px;
+  }
+  
+  .title2:hover {
+    color: blue;
+  }
+
+  .text2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.5;
+    padding: 5px 30px 0px 30px;
+    text-align: justify;
+  }
+
+.author-images2 {
+    float: left;
+    padding: 13px 20px 0px 30px;
+    height: 75px;
+}
+
+.author-surname-date2 {
+    padding-top: 14px;
+    float: left;
+    height: 75px;
+}
+
+.author-surname2 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.8;
+    font-weight: 700;
+}
+
+.author-surname2:hover {
+    color:blue;
+  }
+
+.date2 {
+    font-size: 12px;
+    color: rgba(33, 33, 33, 0.541);
+    line-height: 2.25;
+  }
+
+  .more2 {
+    padding-top:30px;
+    margin-left: 302px;
+}
