@@ -9,6 +9,7 @@ const FirstBlockNews = () => {
         <div className="first-block-news">
             <div className="image-news">
                 <img src={Motivation1} alt="мотивація"/>
+                <p className="sort-blog-text">Мотивація</p>
                 <div className="like-count">
                     <input type="button" className="like"/>
                     17
