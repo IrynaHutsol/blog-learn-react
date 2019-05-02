@@ -62,7 +62,7 @@
     color: rgba(0, 0, 0, 0.871);
     line-height: 1.625;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 10px;
     text-align: justify;
   }
 
@@ -102,5 +102,5 @@
 
   .more {
       padding-top:35px;
-      margin-left: 563px;
+      margin-left: 572px;
   }

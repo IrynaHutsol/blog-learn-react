@@ -2,6 +2,7 @@ import React from 'react';
 import news from './newsSecond';
 import FirstBlockNews from './FirstBlockNews';
 import SecondBlockNews from './SecondBlockNews';
+import ThirdBlockNews from './ThirdBlockNews';
 
 const NewsListItem = () => {
     return (
@@ -36,6 +37,7 @@ const NewsListItem = () => {
                 }
                )
             }
+            <ThirdBlockNews/>
         </div>
     );
 }

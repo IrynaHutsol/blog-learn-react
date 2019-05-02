@@ -18,35 +18,34 @@ const SecondBlockNews = ({
             <div className="row">
                 <div className="col-1">
                     <div className="image-news2">
-                        <img src={imageNews} alt="корисно"/>
+                        <img src={imageNews} alt=""/>
                         <p className="sort-blog-text">{sortBlogText}</p>
                         <div className="like-count">
                             <input type="button" className="like"/>
                             {like}
+                        </div>
                     </div>
-                 </div>
                 </div>
                 <div className="col-2">
                     <div className="news2">
                         <a href="">
                             <p className="title2">{title}</p>
                             <p className="text2">{text}</p>
-                         </a>
+                        </a>
                     </div>
-                    <div className="author-of-news">
+                    <div className="author-of-news2">
                         <a href="" className="author-images2">
-					        <img src={imageAuthor} alt=""/>
-				        </a>
+                            <img src={imageAuthor} alt=""/>
+                        </a>
                         <div className="author-surname-date2">
-					        <a href="" className="author-surname2">{surnameAuthor}</a>
-					        <p className="date2">{dateNews}</p>
-				        </div>
+                            <a href="" className="author-surname2">{surnameAuthor}</a>
+                            <p className="date2">{dateNews}</p>
+                        </div>
                         <a href="">
-					        <img src={More} alt="" className="more2"/>
-				        </a>
+                            <img src={More} alt="" className="more2"/>
+                        </a>
                     </div>
                 </div>
-
             </div>
         </div>
     );

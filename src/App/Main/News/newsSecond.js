@@ -23,7 +23,7 @@ const news = [
     },
     {
         id:3,
-        imageNews: "/images/news/secondBlock/science1.jpg",
+        imageNews: "/images/news/secondBlock/interesting1.jpg",
         sortBlogText: "цікаво",
         like:31,
         title: "Цікаві факти про Тихий океан.",
