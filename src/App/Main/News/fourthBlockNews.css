@@ -1,6 +1,6 @@
-.third-block-news {
-    height: 420px;
-    width: 260px;
+.fourth-block-news {
+    height: 540px;
+    width: 400px;
     margin-top: 30px;
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
@@ -9,23 +9,24 @@
     margin-right: 20px;
 }
 
-.image-news3 {
-    height: 160px;
+.image-news4 {
+    height: 300px;
     width: 100%;
   }
 
-.news3 {
-    height: 185px;
+.news4 {
+    height: 165px;
     width: 100%;
 }
 
-.author-surname-date3 {
+.author-surname-date4 {
     padding-top: 14px;
     float: left;
     height: 75px;
-    width: 145px;
+    width: 250px;
 }
 
-.more3 {
+.more4 {
     padding-top:30px;
+    margin-left: 35px;
 }

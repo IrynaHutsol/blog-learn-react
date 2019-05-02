@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './thirdBlockNews.css';
+import './fourthBlockNews.css';
 import More from './images/more.jpg';
 
-const ThirdBlockNews = ({
+const FourthBlockNews = ({
     imageNews,
     sortBlogText,
     like,
@@ -14,9 +14,9 @@ const ThirdBlockNews = ({
     dateNews,
 }) => {
     return (
-        <div className="third-block-news">
+        <div className="fourth-block-news">
             <div className="row">
-                <div className="image-news3">
+            <div className="image-news4">
                     <img src={imageNews} alt=""/>
                     <p className="sort-blog-text">{sortBlogText}</p>
                     <div className="like-count">
@@ -24,7 +24,7 @@ const ThirdBlockNews = ({
                         {like}
                     </div>
                 </div>
-                <div className="news3">
+                <div className="news4">
                     <a href="">
                         <p className="title2">{title}</p>
                         <p className="text2">{text}</p>
@@ -34,26 +34,26 @@ const ThirdBlockNews = ({
                     <a href="" className="author-images2">
                         <img src={imageAuthor} alt=""/>
                     </a>
-                    <div className="author-surname-date3">
+                    <div className="author-surname-date4">
                         <a href="" className="author-surname2">{surnameAuthor}</a>
                         <p className="date2">{dateNews}</p>
                     </div>
                     <a href="">
-                        <img src={More} alt="" className="more3"/>
+                        <img src={More} alt="" className="more4"/>
                     </a>
                 </div>
             </div>
         </div>
-        );
-    }
+    );
+}
 
-    ThirdBlockNews.propTypes = {
-        sortBlogText: PropTypes.string.isRequired,
-        like: PropTypes.number.isRequired,
-        title: PropTypes.string.isRequired,
-        text: PropTypes.string.isRequired,
-        surnameAuthor: PropTypes.string.isRequired,
-        dateNews: PropTypes.string.isRequired,
-    }
+FourthBlockNews.propTypes = {
+    sortBlogText: PropTypes.string.isRequired,
+    like: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    surnameAuthor: PropTypes.string.isRequired,
+    dateNews: PropTypes.string.isRequired,
+}
 
-    export default ThirdBlockNews;
+export default FourthBlockNews;
