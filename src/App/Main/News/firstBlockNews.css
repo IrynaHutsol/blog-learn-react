@@ -81,6 +81,7 @@
       padding-top: 20px;
       float: left;
       height: 85px;
+      width: 400px;
   }
 
   .author-surname {
@@ -102,5 +103,5 @@
 
   .more {
       padding-top:35px;
-      margin-left: 582px;
+      margin-left: 304px;
   }
