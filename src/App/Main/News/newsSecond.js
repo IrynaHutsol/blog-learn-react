@@ -1,7 +1,7 @@
-const news = [
+const newsSecond = [
     {
         id:1,
-        imageNews: "/images/news/secondBlock/profitably1.jpg",
+        imageNews: "/images/news/secondBlock/profitably2_1.jpg",
         sortBlogText: "корисно",
         like:23,
         title: "4 інгредієнти для молодості шкіри обличчя.",
@@ -12,18 +12,18 @@ const news = [
     },
     {
         id:2,
-        imageNews: "/images/news/secondBlock/inspiration1.jpg",
+        imageNews: "/images/news/secondBlock/inspiration2_1.jpg",
         sortBlogText: "натхення",
         like:15,
         title: "Хобі, які неймовірно покращать ваше життя!",
         text: "Список з 5 хобі, завдяки яким ви зможете стати більш здоровою, щасливою і продуктивною людиною. Перевірте самі!",
         imageAuthor: "/images/news/author/author3.jpg",
-        surnameAuthor: "Олексій Блонський",
+        surnameAuthor: "Олексій Зінчук",
         dateNews: "Квітень 27, 2019 12:03",
     },
     {
         id:3,
-        imageNews: "/images/news/secondBlock/interesting1.jpg",
+        imageNews: "/images/news/secondBlock/interesting2_1.jpg",
         sortBlogText: "цікаво",
         like:31,
         title: "Цікаві факти про Тихий океан.",
@@ -34,4 +34,4 @@ const news = [
     },
  ]
 
- export default news
+ export default newsSecond

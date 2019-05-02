@@ -1,5 +1,6 @@
 import React from 'react';
-import news from './newsSecond';
+import newsSecond from './newsSecond';
+import newsThird from './newsThird';
 import FirstBlockNews from './FirstBlockNews';
 import SecondBlockNews from './SecondBlockNews';
 import ThirdBlockNews from './ThirdBlockNews';
@@ -9,7 +10,7 @@ const NewsListItem = () => {
         <div>
             <FirstBlockNews/>
             {
-               news.map(({
+               newsSecond.map(({
                     id,
                     imageNews,
                     sortBlogText,
@@ -37,7 +38,35 @@ const NewsListItem = () => {
                 }
                )
             }
-            <ThirdBlockNews/>
+            {
+               newsThird.map(({
+                    id,
+                    imageNews,
+                    sortBlogText,
+                    like,
+                    title,
+                    text,
+                    imageAuthor,
+                    surnameAuthor,
+                    dateNews,
+            }) => {
+                   return (
+                        <div key={id}>
+                            <ThirdBlockNews
+                            imageNews={imageNews}
+                            sortBlogText={sortBlogText}
+                            like={like}
+                            title={title}
+                            text={text}
+                            imageAuthor={imageAuthor}
+                            surnameAuthor={surnameAuthor}
+                            dateNews={dateNews}
+                            />
+                        </div>  
+                   )
+                }
+               )
+            }
         </div>
     );
 }

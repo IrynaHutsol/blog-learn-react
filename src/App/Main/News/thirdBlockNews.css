@@ -5,6 +5,8 @@
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    float: left;
+    margin-right: 20px;
 }
 
 .image-news3 {
@@ -22,10 +24,9 @@
     padding-top: 14px;
     float: left;
     height: 75px;
-    width: 130px;
+    width: 145px;
 }
 
 .more3 {
     padding-top:30px;
-    margin-left: 5px;
 }

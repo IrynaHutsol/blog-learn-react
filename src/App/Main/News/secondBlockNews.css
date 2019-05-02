@@ -33,7 +33,7 @@
     color: rgba(0, 0, 0, 0.871);
     font-weight: bold;
     line-height: 1.625;
-    padding: 5px 10px 0px 30px;
+    padding: 5px 10px 0px 20px;
     text-align: justify;
   }
   
@@ -45,7 +45,7 @@
     font-size: 14px;
     color: rgba(0, 0, 0, 0.871);
     line-height: 1.4;
-    padding: 5px 10px 0px 30px;
+    padding: 5px 10px 0px 20px;
     text-align: justify;
   }
 
@@ -56,7 +56,7 @@
 
 .author-images2 {
     float: left;
-    padding: 13px 20px 0px 30px;
+    padding: 13px 20px 0px 20px;
     height: 75px;
 }
 
@@ -86,5 +86,5 @@
 
   .more2 {
     padding-top:30px;
-    margin-left: 135px;
+    margin-left: 145px;
 }
