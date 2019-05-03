@@ -1,0 +1,61 @@
+.subscribe {
+    height: 220px;
+    width: 260px;
+    margin: 25px 25px; 
+  }
+
+  .subscribe-text {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: bold;
+    border-bottom: 1px solid lightblue;
+  }
+
+  .subscribe-name {
+    padding: 10px 0px;
+    font-weight: bold;
+    color: rgba(33, 33, 33, 0.7);
+  }
+
+  .pole-1 {
+    height: 40px;
+    width: 260px;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    outline: none;
+    padding-left: 20px;
+  }
+
+  .pole-2 {
+    height: 40px;
+    width: 260px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgb(63, 81, 181);
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 25px;
+  }
+
+  .pole-2:hover {
+    background-color: rgb(83, 94, 214);
+    cursor: pointer;
+  }
+
+  .or {
+    margin-top: 30px;
+    border-top: 1px solid lightblue;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .subscribe > a {
+    padding-left: 23px;
+  }
