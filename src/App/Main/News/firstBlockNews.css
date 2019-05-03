@@ -17,12 +17,12 @@
 }
 
 .sort-blog-text {
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   color: white;
   position: relative;
   bottom: 30px;
-  left: 30px;
+  left: 20px;
 }
 
 .like {
@@ -40,7 +40,7 @@
 .like-count {
     position: relative;
     text-align: right;
-    right: 20px;
+    right: 10px;
     bottom: 51px;
     color: white;
     font-size: 14px;
