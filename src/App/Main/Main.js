@@ -1,6 +1,7 @@
 import React from 'react';
 import './main.css';
 import NewsList from './News/NewsList';
+import RightSidebar from './RightSidebar/RightSidebar';
 
 const Main = () => {
     return (
@@ -12,7 +13,7 @@ const Main = () => {
                             <NewsList/>
                         </div>
                         <div className="col-m-lg-3">
-                            Hello
+                            <RightSidebar/>
                         </div>
                     </div>
                 </div>
