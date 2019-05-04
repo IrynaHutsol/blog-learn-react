@@ -1,7 +1,7 @@
 .subscribe {
-    height: 220px;
+    height: 360px;
     width: 260px;
-    margin: 25px 25px; 
+    margin: 25px; 
   }
 
   .subscribe-text {
@@ -57,5 +57,5 @@
   }
 
   .subscribe > a {
-    padding-left: 23px;
+    padding-left: 25px;
   }

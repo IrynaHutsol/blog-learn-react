@@ -1,0 +1,23 @@
+.popular-post-image {
+    height: 115px;
+    width: 270px;
+    margin: 30px 0px 30px 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+.imag {
+    float: left;
+    padding-right: 15px;
+  }
+
+.title-3 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.871);
+    line-height: 1.25;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.title-3:hover {
+  color:blue;
+}

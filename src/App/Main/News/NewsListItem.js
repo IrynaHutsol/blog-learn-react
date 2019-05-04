@@ -68,7 +68,7 @@ const NewsListItem = () => {
                                     dateNews={dateNews}
                                     />
                                 </div>  
-                        )
+                            )
                         }
                     )
                     }

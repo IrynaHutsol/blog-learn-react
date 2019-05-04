@@ -14,7 +14,7 @@ const Subscribe =()=> {
             <p className="subscribe-name">Email</p>
             <input type="text" placeholder="Email@adress.com" className="pole-1"/>
             <input type="button" value="Підписатися" className="pole-2"/>
-            <p class="or">or</p>
+            <p className="or">or</p>
             <a href="https://www.facebook.com/">
                 <img src={Facebook} alt=""/>
             </a>

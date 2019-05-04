@@ -1,0 +1,29 @@
+.tags {
+    height: 300px;
+    width: 260px;
+    margin: 25px; 
+  }
+
+.tags p {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: bold;
+    border-bottom: 1px solid lightblue;
+  }
+
+
+.tags a {
+    background-color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 10px 0px 0px;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .tags a:hover {
+    color: blue;
+  }

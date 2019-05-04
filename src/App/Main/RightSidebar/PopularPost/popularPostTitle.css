@@ -1,0 +1,11 @@
+.popular-post-title {
+    margin: 25px;  
+}
+
+.popular-post-title p {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: bold;
+    border-bottom: 1px solid lightblue;
+  }
