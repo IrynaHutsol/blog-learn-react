@@ -6,6 +6,7 @@ import FirstBlockNews from './FirstBlockNews';
 import SecondBlockNews from './SecondBlockNews';
 import ThirdBlockNews from './ThirdBlockNews';
 import FourthBlockNews from './FourthBlockNews';
+import MorePosts from './MorePosts';
 
 const NewsListItem = () => {
     return (
@@ -104,6 +105,7 @@ const NewsListItem = () => {
                         )
                     }
                 </div>
+            <MorePosts/>
         </div>
     );
 }

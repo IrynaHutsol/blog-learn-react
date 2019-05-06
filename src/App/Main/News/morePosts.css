@@ -1,0 +1,33 @@
+.more-posts {
+    height: 75px;
+    position: relative;
+}
+
+.more-post-text {
+    width: 85%;
+    height: 75px;
+    line-height: 75px;
+    color: rgb(63, 81, 181);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: right;
+    float: left;
+}
+
+.more-post-button {
+    line-height: 6;
+    height: 75px;
+}
+
+.button-ellipse {
+    border-radius: 50%;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    background: white url("images/arrow-forward.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 42px;
+    height: 42px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
