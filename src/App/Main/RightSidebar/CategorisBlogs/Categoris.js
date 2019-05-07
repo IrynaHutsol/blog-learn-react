@@ -4,8 +4,9 @@ import './categoris.css';
 const Categoris =()=> {
     return (
         <div className="categoris">
-            <p>Блоги</p>
-            <ul>
+            <p>Категорії</p>
+            <ul> 
+                <li><a href="">Усі блоги</a></li>
                 <li><a href="">Наука</a></li>
                 <li><a href="">Цікаво</a></li>
                 <li><a href="">Корисно</a></li>

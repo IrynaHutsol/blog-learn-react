@@ -5,7 +5,7 @@ const MorePosts =()=> {
     return (
         <div className="more-posts">
             <div className="more-post-text">
-                More
+                Більше
             </div>
             <div className="more-post-button">
                 <input type="button" className="button-ellipse"/>
