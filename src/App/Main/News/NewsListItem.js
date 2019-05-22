@@ -1,7 +1,5 @@
 import React from 'react';
-import newsSecond from './newsSecond';
-import newsThird from './newsThird';
-import newsFourth from './newsFourth';
+import newsAll from './newsAll';
 import FirstBlockNews from './FirstBlockNews';
 import SecondBlockNews from './SecondBlockNews';
 import ThirdBlockNews from './ThirdBlockNews';
@@ -14,7 +12,7 @@ const NewsListItem = () => {
             <FirstBlockNews/>
                 <div className="row">
                     {
-                    newsSecond.map(({
+                    newsAll.filter (newsAll=>newsAll.topNewsSecond === true).map(({
                             id,
                             imageNews,
                             sortBlogText,
@@ -45,7 +43,7 @@ const NewsListItem = () => {
                 </div>
                 <div className="row">
                     {
-                    newsThird.map(({
+                     newsAll.filter (newsAll=>newsAll.topNewsThird === true).map(({
                             id,
                             imageNews,
                             sortBlogText,
@@ -76,7 +74,7 @@ const NewsListItem = () => {
                 </div>
                 <div className="row">
                     {
-                        newsFourth.map(({
+                        newsAll.filter (newsAll=>newsAll.topNewsFourth === true).map(({
                                 id,
                                 imageNews,
                                 sortBlogText,
