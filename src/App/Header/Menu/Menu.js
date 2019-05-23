@@ -1,5 +1,6 @@
 import React from 'react';
 import './menu.css';
+import {Link} from 'react-router-dom'
 
 const Menu =() => {
     return (
@@ -9,7 +10,7 @@ const Menu =() => {
 				<li><a href="">Наука</a></li>
 				<li><a href="">Цікаво</a></li>
 				<li><a href="">Корисно</a></li>
-				<li><a href="">Мотивація</a></li>
+				<li><Link to="/motivation">Мотивація</Link></li>
 				<li><a href="">Натхнення</a></li>
 			</ul>
         </div>

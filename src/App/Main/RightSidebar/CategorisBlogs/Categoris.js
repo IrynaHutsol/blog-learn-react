@@ -1,5 +1,6 @@
 import React from 'react';
 import './categoris.css';
+import {Link} from 'react-router-dom'
 
 const Categoris =()=> {
     return (
@@ -10,7 +11,7 @@ const Categoris =()=> {
                 <li><a href="">Наука</a></li>
                 <li><a href="">Цікаво</a></li>
                 <li><a href="">Корисно</a></li>
-                <li><a href="">Мотивація</a></li>
+                <li><Link to="/motivation">Мотивація</Link></li>
                 <li><a href="">Натхення</a></li>
             </ul>
         </div>
