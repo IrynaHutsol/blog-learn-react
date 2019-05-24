@@ -29,6 +29,7 @@ import pp1 from './images/pp1.jpg';
 import pp2 from './images/pp2.png';
 import pp3 from './images/pp3.jpg';
 import pp4 from './images/pp4.jpg';
+import more from './images/more.jpg';
 
 
 
@@ -126,10 +127,10 @@ const MotivationPage =()=> {
 				                </div>
 				            </div>
 				            <div className="news">
-				            <a href="">
+				            <Link to="/motivationNews">
 				                <p className="title">Як ідеально облаштувати робоче місце?</p>
 				                <p className="text">Від того, як ви змогли облаштувати робоче місце, буде залежати ефективність праці. Психологи вже не один раз стверджували, що вдала організація простору має безпосередній вплив на ефективність роботи.Тому радимо перед виконанням важливих справ створити оптимальну робочу атмосферу.</p>
-				            </a>
+							</Link>
 				            </div>
 				            <div className="author-of-news">
 				                <a href="" className="author-images">
@@ -140,7 +141,7 @@ const MotivationPage =()=> {
 									<p className="date">Травень 09, 2019 10:15</p>
 								</div>
 				                <a href="">
-									<img src="images/more.jpg" alt="" className="more"/>
+									<img src={more} alt="" className="more"/>
 								</a>
 				            </div>
 				        </div>
@@ -172,7 +173,7 @@ const MotivationPage =()=> {
 				                            <p className="date2">Травень 10, 2019 17:37</p>
 				                        </div>
 				                        <a href="">
-				                            <img src="images/more.jpg" alt="" className="more2"/>
+				                            <img src={more} alt="" className="more2"/>
 				                        </a>
 				                    </div>
 				                </div>
@@ -206,7 +207,7 @@ const MotivationPage =()=> {
 				                            <p className="date2">Травень 03, 2019 21:30</p>
 				                        </div>
 				                        <a href="">
-				                            <img src="images/more.jpg" alt="" className="more2"/>
+				                            <img src={more} alt="" className="more2"/>
 				                        </a>
 				                    </div>
 				                </div>
@@ -240,7 +241,7 @@ const MotivationPage =()=> {
 				                            <p className="date2">Травень 05, 2019 22:27</p>
 				                        </div>
 				                        <a href="">
-				                            <img src="images/more.jpg" alt="" className="more2"/>
+				                            <img src={more} alt="" className="more2"/>
 				                        </a>
 				                    </div>
 				                </div>
@@ -271,7 +272,7 @@ const MotivationPage =()=> {
 				                        <p className="date2">Травень 11, 2019 07:05</p>
 				                    </div>
 				                    <a href="">
-				                        <img src="images/more.jpg" alt="" className="more3"/>
+				                        <img src={more} alt="" className="more3"/>
 				                    </a>
 				                </div>
 				            </div>
@@ -301,7 +302,7 @@ const MotivationPage =()=> {
 				                        <p className="date2">Квітень 25, 2019 10:50</p>
 				                    </div>
 				                    <a href="">
-				                        <img src="images/more.jpg" alt="" className="more3"/>
+				                        <img src={more} alt="" className="more3"/>
 				                    </a>
 				                </div>
 				            </div>
@@ -331,7 +332,7 @@ const MotivationPage =()=> {
 				                        <p className="date2">Травень 01, 2019 21:25</p>
 				                    </div>
 				                    <a href="">
-				                        <img src="images/more.jpg" alt="" className="more3"/>
+				                        <img src={more} alt="" className="more3"/>
 				                    </a>
 				                </div>
 				            </div>
@@ -361,7 +362,7 @@ const MotivationPage =()=> {
 				                        <p className="date2">Квітень 31, 2019 15:10</p>
 				                    </div>
 				                    <a href="">
-				                        <img src="images/more.jpg" alt="" className="more4"/>
+				                        <img src={more} alt="" className="more4"/>
 				                    </a>
 				                </div>
 				            </div>
@@ -391,7 +392,7 @@ const MotivationPage =()=> {
 				                        <p className="date2">Травень 7, 2019 14:07</p>
 				                    </div>
 				                    <a href="">
-				                        <img src="images/more.jpg" alt="" className="more4"/>
+				                        <img src={more} alt="" className="more4"/>
 				                    </a>
 				                </div>
 				            </div>

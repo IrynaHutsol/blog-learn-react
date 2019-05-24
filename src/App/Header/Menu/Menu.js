@@ -6,7 +6,7 @@ const Menu =() => {
     return (
         <div className="menu">
 			<ul className="nav">
-				<li><Link to="/allblogs">Усі блоги</Link></li>
+				<li><Link to="/allBlogs">Усі блоги</Link></li>
 				<li><a href="">Наука</a></li>
 				<li><a href="">Цікаво</a></li>
 				<li><a href="">Корисно</a></li>
