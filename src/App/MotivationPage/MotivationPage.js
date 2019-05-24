@@ -1,4 +1,6 @@
 import React from 'react';
+import './MotivationPage.css';
+import {Link} from 'react-router-dom';
 import facebookHeader from './images/facebookHeader.png';
 import twitterHeader from './images/twitterHeader.png';
 import pinterestHeader from './images/pinterestHeader.png';
@@ -32,7 +34,7 @@ import pp4 from './images/pp4.jpg';
 
 const MotivationPage =()=> {
     return (
-    <body>
+    <div>
         <header>
             <div className="bg-header">
                 <div className="container">
@@ -79,7 +81,7 @@ const MotivationPage =()=> {
                     <div className="col-lg-9">
                         <div className="menu">
                             <ul className="nav">
-                                <li><a href="">Усі блоги</a></li>
+								<li><Link to="/allblogs">Усі блоги</Link></li>
                                 <li><a href="">Наука</a></li>
                                 <li><a href="">Цікаво</a></li>
                                 <li><a href="">Корисно</a></li>
@@ -411,6 +413,7 @@ const MotivationPage =()=> {
 				        <div className="categoris">
 				            <p>Блоги</p>
 				            <ul>
+								<li><Link to="/allblogs">Усі блоги</Link></li>
 				                <li><a href="">Наука</a></li>
 				                <li><a href="">Цікаво</a></li>
 				                <li><a href="">Корисно</a></li>
@@ -500,7 +503,7 @@ const MotivationPage =()=> {
             </div>
         </div>
     </footer>
-    </body>
+    </div>
     );
 }
 

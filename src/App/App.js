@@ -11,6 +11,7 @@ const App =() => {
 	return (
 	<div>
 		<Route exact path="/" component={App1}/>
+		<Route path="/allblogs" component={App1}/>
 		<Route path="/motivation" component={MotivationPage}/>
 	</div>
 	);
